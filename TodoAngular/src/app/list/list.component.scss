@@ -1,0 +1,20 @@
+$baseColor: lightgoldenrodyellow;
+
+:host {
+  todo-item {
+    background: green;
+
+    &:nth-child(even) {
+      background: darken($color: $baseColor, $amount: 5%);
+    }
+
+    &:hover {
+      background: blue;
+    }
+  }
+}
+
+
+.vs-viewport {
+  height: 100vw;
+}

@@ -1,0 +1,15 @@
+<cdk-virtual-scroll-viewport itemSize="19" class="vs-viewport">
+  <todo-item *cdkVirtualFor="let t of todos" [todo]="t"></todo-item>
+</cdk-virtual-scroll-viewport>
+
+
+<!-- <todo-item *ngFor="let t of todos" [todo]="t"></todo-item> -->
+
+<!--
+  SOLID :
+  Single Responsability
+
+  Dependency Injection Principle (injector)
+
+  KISS : Keep It Simple and Stupid
+-->
